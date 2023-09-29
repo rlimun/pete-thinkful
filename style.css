@@ -1,6 +1,7 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
+/* Set background color of entire page */
 html {
   background-color: #eae2b7
 }
@@ -54,8 +55,6 @@ hr {
   border: 1px solid black;
 }
 
-/* Add your solution below */
-
 .image-circle {
   width: 100%;
   max-width: 200px;
@@ -64,11 +63,13 @@ hr {
   border: 2px solid #003049;
 }
 
+/* Set the size for all images */
 .abstract-red, .spiral-zany, .melted-rainbow {
   width: 50%;
   height: 50%;
 }
 
+/* Center header, nav, and footer text */
 header, nav, footer {
   margin:auto;
   text-align: center;
